@@ -300,6 +300,13 @@ const animationTimeline = () => {
   replyBtn.addEventListener("click", () => {
     tl.restart();
   });
+
+  // Firework Animation on click
+  const fireworkBtn = document.getElementById("firework");
+  fireworkBtn.addEventListener("click", () => {
+    window.location.href = "firework.html";
+  });
+
 };
 
 // Run fetch and animation in sequence
